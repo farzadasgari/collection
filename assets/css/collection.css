@@ -62,7 +62,7 @@ body {
 .coll-discount-badge {
     background-color: #ff4757;
     color: #ffffff;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     padding: 5px 10px;
     border-radius: 12px;
     font-weight: bold;
@@ -73,15 +73,19 @@ body {
 }
 
 .coll-new-price {
-    font-size: 1.25rem;
+    font-size: 1.4rem;
     font-weight: bold;
     color: #2ecc71;
     margin-left: 15px;
 }
 
 .coll-old-price {
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-decoration: line-through;
-    color: #aaaaaa;
+    color: crimson;
     margin-right: 15px;
+}
+
+.coll-card-title {
+    font-family: "Roboto Slab", serif;
 }
