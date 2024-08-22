@@ -1,0 +1,11 @@
+.coll-navbar-gradient {
+    background: radial-gradient(circle at center, #F8F9FA, #ebebeb);
+}
+
+.coll-canvas-logo {
+    width: 30px;
+}
+
+.coll-nav-search {
+    width: 350px;
+}
