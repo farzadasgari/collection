@@ -58,3 +58,30 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.coll-discount-badge {
+    background-color: #ff4757;
+    color: #ffffff;
+    font-size: 0.9rem;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+.coll-price-section {
+    margin-top: 10px;
+}
+
+.coll-new-price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #2ecc71;
+    margin-left: 15px;
+}
+
+.coll-old-price {
+    font-size: 1rem;
+    text-decoration: line-through;
+    color: #aaaaaa;
+    margin-right: 15px;
+}
