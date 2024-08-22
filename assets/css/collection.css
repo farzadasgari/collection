@@ -9,3 +9,7 @@
 .coll-nav-search {
     width: 350px;
 }
+
+body {
+    padding-top: 50px;
+}
