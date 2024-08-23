@@ -160,3 +160,30 @@ body {
 .coll-social {
     text-decoration: none;
 }
+
+.coll-chat-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(127, 252, 173, 0.432);
+    border-width: 3px;
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+.coll-chat-button:hover {
+    background-color: rgba(127, 252, 173, 0.74);
+}
+
+.coll-chat-img {
+    width: 40px;
+}
