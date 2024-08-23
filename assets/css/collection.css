@@ -246,3 +246,57 @@ body {
     border-radius: 50%;
     margin-right: 10px;
 }
+
+.coll-bal-right,
+.coll-bal-left {
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.coll-bal-right {
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.coll-bal-right a {
+    background: rgba(127, 252, 173, 0.74);
+    color: #000 !important;
+    border-radius: 20px 20px 3px 20px;
+    display: inline-block;
+    max-width: 75%;
+    padding: 7px 13px;
+}
+
+.coll-bal-right:before {
+    content: attr(data-is);
+    position: absolute;
+    right: 15px;
+    bottom: -0.8em;
+    font-size: 0.750rem;
+    color: rgba(84, 110, 122, 1.0);
+}
+
+.coll-bal-left {
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.coll-bal-left a {
+    background: #f1f1f1;
+    color: #000 !important;
+    border-radius: 20px 20px 20px 3px;
+    display: inline-block;
+    max-width: 75%;
+    padding: 7px 13px;
+}
+
+.coll-bal-left:before {
+    content: attr(data-is);
+    position: absolute;
+    left: 13px;
+    bottom: -0.8em;
+    font-size: 0.750rem;
+    color: rgba(84, 110, 122, 1.0);
+}
