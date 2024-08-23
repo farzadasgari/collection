@@ -234,7 +234,7 @@ body {
     transition: color 0.3s ease;
 }
 
-.coll-answer{
+.coll-answer {
     background-color: rgba(127, 252, 173, 0.74);
 }
 
@@ -261,7 +261,7 @@ body {
 }
 
 .coll-bal-right a {
-    background: rgba(127, 252, 173, 0.74);
+    background: #E7FFE8;
     color: #000 !important;
     border-radius: 20px 20px 3px 20px;
     display: inline-block;
@@ -299,4 +299,20 @@ body {
     bottom: -0.8em;
     font-size: 0.750rem;
     color: rgba(84, 110, 122, 1.0);
+}
+
+.coll-download-buttons {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.coll-download-buttons .app-badge {
+    max-width: 200px;
+    margin: 10px;
+    transition: transform 0.2s ease;
+}
+
+.coll-download-buttons .app-badge:hover {
+    transform: scale(1.05);
 }
