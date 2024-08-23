@@ -132,18 +132,27 @@ body {
     color:#fbc634 !important;
 }
 
-.review-count{
-    font-weight:400;
-    margin-bottom:2px;
-    font-size:24px !important;
+
+.card {
+    width: 100%;
+    max-width: 18rem;
+    margin: 0 auto;
 }
 
-.small-ratings i{
-  color:#cecece;   
-}
+@media (max-width: 768px) {
+    .coll-divider-container .coll-title-box {
+        font-size: 1.2rem;
+    }
 
-.review-stat{
-    font-weight:300;
-    font-size:18px;
-    margin-bottom:2px;
+    .coll-price-section span {
+        font-size: 0.9rem;
+    }
+
+    .coll-divider-container {
+        margin-bottom: 1rem;
+    }
+
+    .carousel-inner {
+        padding: 1rem;
+    }
 }
