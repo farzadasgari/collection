@@ -118,18 +118,18 @@ body {
     align-items: center;
 }
 
-.coll-ratings{
-    margin-right:10px;
+.coll-ratings {
+    margin-right: 10px;
 }
 
-.coll-ratings i{
-    
-    color:#cecece;
-    font-size:32px;
+.coll-ratings i {
+
+    color: #cecece;
+    font-size: 32px;
 }
 
-.coll-rating-color{
-    color:#fbc634 !important;
+.coll-rating-color {
+    color: #fbc634 !important;
 }
 
 
@@ -155,4 +155,8 @@ body {
     .carousel-inner {
         padding: 1rem;
     }
+}
+
+.coll-social {
+    text-decoration: none;
 }
